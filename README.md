@@ -18,9 +18,11 @@ Use encoder-decoder with Bahdanau attention to predict MNIST digits sequence
 - **clear.sh** Clean the pred_logs directory
 
 ![](https://user-images.githubusercontent.com/9562709/32320622-b86b0e5c-bfbe-11e7-8c10-a37c534dba34.png)
+
 Figure 1. Encoder-decoder model with Bahdanau attention
 
 ![](https://user-images.githubusercontent.com/9562709/32320199-47611f86-bfbd-11e7-9235-20ee99a76db6.png)
+
 Figure 2. Generated digits sequence based on MNIST
 
 ## Results:
@@ -29,12 +31,15 @@ I have tested the model with and without Bahdanau attention, the results are as 
 **Scheduled Sampling**[1], using which I think the result would be even better.
 
 ![](https://user-images.githubusercontent.com/9562709/32320794-39286760-bfbf-11e7-8ae4-85c871351fd0.png)
+
 Figure 3. CER and LOSS of basic encoder-decoder model
 
 ![](https://user-images.githubusercontent.com/9562709/32320848-62fb7aa0-bfbf-11e7-9d59-35316bbf3959.png)
+
 Figure 4. CER and LOSS of encoder-decoder model with Bahdanau attention
 
 ![](https://user-images.githubusercontent.com/9562709/32320871-8624d814-bfbf-11e7-9074-e30082c03e76.png)
+
 Figure 5. CER and LOSS of encoder-decoder model with Bahdanau attention using self-predicted value as decoder input
 
 ## References:
